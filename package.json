@@ -1,0 +1,26 @@
+{
+  "name": "beachapi",
+  "version": "1.0.0",
+  "description": "API em Node.js com Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Bruna",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
